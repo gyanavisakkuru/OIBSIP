@@ -1,0 +1,32 @@
+<html>
+<head> 
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>TO-DO List App</title>
+  <link rel="stylesheet" href="todo.css">  
+</head>
+<body>
+  <div class="container">
+    <div class="todo-heading">
+      <h2>TO-DO List</h2>
+      <span id="date-span"></span>
+    </div>
+    <div class="date-container">
+      <span class="date" id="today-date"></span>
+    </div>
+    <div class="todo-app">
+      <div class="row">
+        <input type="text" id="input-box" placeholder="Add a task">
+        <button onclick="addTask()">Add</button>
+      </div>
+      <ul id="list-container">
+           <!-- <li class="checked">Task 1</li>
+            <li>Task 2</li>
+            <li>Task 3</li>-->
+       </ul>
+        </div>
+    </div>
+    </div>
+  </div>
+  <script src="todo.js"></script>
+</body>
+</html>
